@@ -39,12 +39,12 @@ def nasaphoto():
 
 	#visit url in chrome webdriver
 	# Create a new instance of the browser, make sure we can see it (Headless = False)
-	browser = Browser('chrome', **executable_path, headless=False)
-	browser.visit(newurl)
-	time.sleep(20)
-	browser.quit()
+	# browser = Browser('chrome', **executable_path, headless=False)
+	# browser.visit(newurl)
+	# time.sleep(20)
+	# browser.quit()
 
-	print("\nCode Has Finished Running")
+	# print("\nCode Has Finished Running")
 
 
 nasaphoto()
